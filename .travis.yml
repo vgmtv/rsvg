@@ -11,6 +11,8 @@ notifications:
   email: false
 node_js:
   - node
+install:
+  - npm install
 script:
   - npm run build
 after_success:
