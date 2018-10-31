@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "rm -rf lib && babel -d lib src",
+    "clean": "rm -rf lib",
+    "build": "babel -d lib src",
     "build:example": "browserify ./example.js -o example.build.js -t [ babelify ]",
     "build:watch": "npm run build -- --watch",
     "test": "echo \"Error: no test specified\" && exit 0",
@@ -34,11 +35,13 @@
     "access": "public"
   },
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
     "@semantic-release/changelog": "^3.0.1",
     "@semantic-release/git": "^7.0.5",
-    "babel-cli": "^6.16.0",
-    "babel-core": "^6.17.0",
-    "babel-preset-airbnb": "^2.1.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
     "babelify": "^7.3.0",
     "browserify": "^13.1.0",
     "eslint": "^3.7.1",
