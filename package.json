@@ -8,7 +8,8 @@
     "build": "rm -rf lib && babel -d lib src",
     "build:example": "browserify ./example.js -o example.build.js -t [ babelify ]",
     "build:watch": "npm run build -- --watch",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "semantic-release": "semantic-release"
   },
   "files": [
     "lib/*"
