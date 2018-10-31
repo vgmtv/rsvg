@@ -1,5 +1,5 @@
 {
-  "name": "@a7/react-prime-svg",
+  "name": "@a7/rsvg",
   "version": "0.0.0-development",
   "description": "Primitive React SVG Elements Across Targets",
   "main": "lib/index.js",
