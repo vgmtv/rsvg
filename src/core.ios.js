@@ -1,0 +1,40 @@
+/* eslint-disable import/no-named-as-default */
+
+import Svg, {
+  Circle,
+  ClipPath,
+  Defs,
+  Ellipse,
+  G,
+  Line,
+  LinearGradient,
+  Path,
+  Polygon,
+  Polyline,
+  RadialGradient,
+  Rect,
+  Stop,
+  Symbol,
+  Text,
+  Use,
+} from 'react-native-svg';
+
+module.exports = {
+  Svg,
+  Circle,
+  ClipPath,
+  Ellipse,
+  G,
+  LinearGradient,
+  RadialGradient,
+  Line,
+  Path,
+  Polygon,
+  Polyline,
+  Rect,
+  Symbol,
+  Text,
+  Use,
+  Defs,
+  Stop,
+};
