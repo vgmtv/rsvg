@@ -1,6 +1,6 @@
 {
   "name": "@vgm/rsvg",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Primitive React SVG Elements Across Targets",
   "main": "lib/index.js",
   "scripts": {

@@ -1,3 +1,10 @@
+# 1.0.0 (2018-11-07)
+
+
+### Features
+
+* new project ([c0c5283](https://github.com/vgmtv/rsvg.git/commit/c0c5283))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
