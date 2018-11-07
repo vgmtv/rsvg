@@ -1,5 +1,5 @@
 {
-  "name": "@a7/rsvg",
+  "name": "@vgm/rsvg",
   "version": "0.0.0-development",
   "description": "Primitive React SVG Elements Across Targets",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/team-a7/react-prime-svg.git"
+    "url": "git+https://github.com/vgmtv/react-prime-svg.git"
   },
   "keywords": [
     "react",
@@ -26,9 +26,9 @@
   "author": "Nam Pham <nampdn@protonmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/team-a7/react-prime-svg/issues"
+    "url": "https://github.com/vgmtv/react-prime-svg/issues"
   },
-  "homepage": "https://github.com/team-a7/react-prime-svg#readme",
+  "homepage": "https://github.com/vgmtv/react-prime-svg#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest",
