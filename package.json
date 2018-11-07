@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vgmtv/react-prime-svg.git"
+    "url": "git+https://github.com/vgmtv/rsvg.git"
   },
   "keywords": [
     "react",
@@ -26,9 +26,9 @@
   "author": "Nam Pham <nampdn@protonmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vgmtv/react-prime-svg/issues"
+    "url": "https://github.com/vgmtv/rsvg/issues"
   },
-  "homepage": "https://github.com/vgmtv/react-prime-svg#readme",
+  "homepage": "https://github.com/vgmtv/rsvg#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest",
