@@ -10,11 +10,17 @@ before_script:
 
 build:
   stage: build
+  tags:
+    - docker
+    - linux
   script:
     - yarn build
 
 deploy:
   stage: deploy
+  tags:
+    - docker
+    - linux
   script:
     - yarn semantic-release
   only:
