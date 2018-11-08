@@ -1,3 +1,5 @@
+image: node:latest
+
 cache:
   paths:
     - node_modules/
@@ -8,17 +10,11 @@ before_script:
 
 build:
   stage: build
-  tags:
-    - vgm
-    - library
   script:
     - yarn build
 
 deploy:
   stage: deploy
-  tags:
-    - vgm
-    - library
   script:
     - yarn semantic-release
   only:
