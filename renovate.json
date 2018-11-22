@@ -1,5 +1,9 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "npmToken": "158b2de8-32c6-4884-8925-7f34a7b1325c",
+  "devDependencies": {
+    "automerge": true
+  }
 }
